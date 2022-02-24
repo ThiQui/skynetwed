@@ -1,0 +1,63 @@
+body{
+    padding: 1px;
+    margin: 1px;
+}
+.container{
+    position: relative;
+}
+.container>header{
+    background-image: url('./iba-1024x525.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container>nav{
+    
+    line-height: 100%;
+    background-color: orangered;
+    
+    text-align: left;
+    font-variant: small-caps;
+}
+
+.container>nav>p{
+    padding: 0px;
+    margin: 0px;
+    line-height: 100%;
+    background-color: orangered;
+    
+    text-align: right;
+    font-variant: small-caps;
+    float: right;
+}
+.container>nav>p>a{
+    color: white;
+}
+.container>footer{
+    clear: both;
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.container>set{
+    top: 0px;
+    right: 0px;
+    border-color: orange;
+    position: absolute;
+    background: orange;
+    box-shadow: orange;
+}
+.container>set>a{
+    color: white;
+}
